@@ -1,0 +1,152 @@
+#box{
+    background-color: bisque;
+    border: 3px solid;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+    "b1 b2 b3" 
+    "b4 b5 b5" 
+    "b6 b5 b5";
+    grid-template-rows: 90px 90px 90px;
+    gap: 2px;
+}
+#b1{
+   background-color: aquamarine;
+   border: 3px solid;
+   grid-area: b1;
+}
+#b2{
+   background-color: rgb(243, 173, 138);
+   border: 3px solid;
+   grid-area: b2;
+}
+#b3{
+   background-color: rgb(233, 210, 117);
+   border: 3px solid;
+   grid-area: b3;
+          
+}
+#b4{
+   background-color: rgb(92, 224, 103);
+   grid-area: b4;
+   border: 3px solid;
+}
+#b5{
+   background-color: rgb(112, 213, 234);
+   grid-area: b5;
+   border: 3px solid;
+}
+#b6{
+   background-color: rgb(81, 129, 232);
+   grid-area: b6;
+   border: 3px solid;
+}
+
+#box1{
+   border: 3px solid;
+   background-color: rgba(169, 173, 174, 0.655);
+   padding: 20px;
+   display: grid;
+   margin-top: 20px;
+   grid-template-areas: 
+   "a1 a2 a2 a3" 
+   "a1 a4 a5 a6" 
+   "a1 a7 a8 a6";
+   grid-template-rows: 90px 90px 90px;
+   gap: 2px;
+}
+#a1{
+   border: 3px solid;
+  background-color: rgb(27, 88, 68);
+  grid-area: a1;
+}
+#a2{
+  background-color: rgb(252, 171, 131);
+  border: 3px solid;
+  grid-area: a2;
+}
+#a3{
+  background-color: rgb(214, 184, 61);
+  grid-area: a3;
+  border: 3px solid;
+         
+}
+#a4{
+  background-color: rgb(92, 224, 103);
+  grid-area: a4;
+  border: 3px solid;
+}
+#a5{
+  background-color: rgb(32, 180, 209);
+  grid-area: a5;
+  border: 3px solid;
+}
+#a6{
+  background-color: rgb(81, 129, 232);
+  grid-area: a6;
+  border: 3px solid;
+}
+#a7{
+   background-color: rgb(95, 110, 120);
+   grid-area: a7;
+   border: 3px solid;
+ }
+ #a8{
+   background-color: rgb(224, 112, 20);
+   grid-area: a8;
+   border: 3px solid;
+ }
+
+ #box2{
+   background-color: rgba(192, 127, 186, 0.655);
+   padding: 20px;
+   margin-top: 20px;
+   display: grid;
+   grid-template-areas: 
+   "c1 c2 c2 c3 c4 c5 c6" 
+   "c7 c8 c8 c8 c4 c5 c6";
+   grid-template-rows: 100px 100px ;
+   gap: 2px;
+   border: 3px solid;
+}
+#c1{
+  background-color: rgb(27, 88, 68);
+  grid-area: c1;
+  border: 3px solid;
+}
+#c2{
+  background-color: rgb(252, 171, 131);
+  grid-area: c2;
+  border: 3px solid;
+}
+#c3{
+  background-color: rgb(214, 184, 61);
+  grid-area: c3;
+  border: 3px solid;      
+}
+#c4{
+  background-color: rgb(92, 224, 103);
+  grid-area: c4;
+  border: 3px solid;
+}
+#c5{
+  background-color: rgb(32, 180, 209);
+  grid-area: c5;
+  border: 3px solid;
+}
+#c6{
+  background-color: rgb(81, 129, 232);
+  grid-area: c6;
+  border: 3px solid;
+}
+#c7{
+   background-color: rgb(5, 46, 69);
+   grid-area: c7;
+   border: 3px solid;
+ }
+ #c8{
+   background-color: rgb(224, 112, 20);
+   grid-area: c8;
+   border: 3px solid;
+ }
+
